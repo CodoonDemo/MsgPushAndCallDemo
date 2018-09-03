@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuanting.msgpushandcall.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:text="监听来电并自动拒接"
+        />
+     <TextView
+         android:id="@+id/tv_push_msg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="18dp"
+         android:text="获取微信、QQ、短信消息"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         />
+
+</LinearLayout>
